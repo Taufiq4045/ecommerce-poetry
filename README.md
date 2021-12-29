@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+To get the poetry listed click [here](https://ecommerce-poetry.netlify.app/).
+
+The sample login credentials are Username : firstuser@gmail.com and the Password : Firstuser5
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
