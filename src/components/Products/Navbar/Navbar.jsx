@@ -11,7 +11,7 @@ import {
   Avatar,
 } from "@material-ui/core";
 import { ShoppingCart } from "@material-ui/icons";
-import PersonAddIcon from "@material-ui/icons/PersonAdd";
+//import PersonAddIcon from "@material-ui/icons/Login";
 import { Link, useLocation } from "react-router-dom";
 import logo from "./logo.jpg";
 import useStyles from "./NavStyles";
@@ -45,7 +45,7 @@ const PrimarySearchAppBar = ({ totalItems }) => {
           color="inherit"
         >
           <Badge color="secondary">
-            <PersonAddIcon />
+          <Button color='primary' variant="contained">Login</Button>
           </Badge>
         </IconButton>
         <IconButton
@@ -84,7 +84,7 @@ const PrimarySearchAppBar = ({ totalItems }) => {
           {location.pathname === "/" && (
             <div className={classes.button}>
               <Button color="black" component={Link} to="/about">
-                About
+              <Button  variant="contained">About</Button>
               </Button>
 
               {user ? (
@@ -115,7 +115,7 @@ const PrimarySearchAppBar = ({ totalItems }) => {
                   color="inherit"
                 >
                   <Badge color="secondary">
-                    <PersonAddIcon />
+                  <Button color='primary' variant="contained">Login</Button>
                   </Badge>
                 </IconButton>
               )}
