@@ -57,7 +57,7 @@ const AboutPage = () => {
         <Navbar />
           <MainFeaturedPost post={mainPost} />
           <Grid container spacing={4} className={classes.mainGrid}>
-            <Main title="About Me" />
+            <Main title="About Ryan" />
             <Grid container spacing={4}>
               <Container maxWidth="sm">
                 <Typography variant="h6" color="textSecondary">
@@ -82,7 +82,6 @@ const AboutPage = () => {
               <Sidebar
                 title={sidebar.title}
                 description={sidebar.description}
-                archives={sidebar.archives}
               />
             </Grid>
           </Grid>
