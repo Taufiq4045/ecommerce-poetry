@@ -83,9 +83,7 @@ const PrimarySearchAppBar = ({ totalItems }) => {
           <div className={classes.grow} />
           {location.pathname === "/" && (
             <div className={classes.button}>
-              <Button color="black" component={Link} to="/about">
-              <Button  variant="contained">About</Button>
-              </Button>
+              <Button  variant="contained" component={Link} to="/about">About Ryan</Button>
 
               {user ? (
                 <div className={classes.profile}>
